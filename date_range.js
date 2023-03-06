@@ -37,3 +37,8 @@ const future = addInterval(today, {
 
 console.log(today)
 console.log(future)
+
+/**
+ * Displayed the number of seconds between the current date and the future date
+ */
+console.log(future.getTime() - Date.now() / 1000)
